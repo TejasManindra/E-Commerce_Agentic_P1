@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,brand,selling_price,cost_price,launch_date
+P0001,Electronics Audio Product 1,Electronics,Audio,Zenith,25522,17826.12,2025-07-21
+P0002,Electronics Audio Product 2,Electronics,Audio,Mira,26589,20549.95,2024-08-14
+P0003,Electronics Audio Product 3,Electronics,Audio,Mira,7255,3641.89,2025-03-13
+P0004,Electronics Audio Product 4,Electronics,Audio,Zenith,14544,7401.91,2024-01-24
+P0005,Electronics Audio Product 5,Electronics,Audio,Aster,28718,14480.83,2024-08-14
+P0006,Electronics Audio Product 6,Electronics,Audio,Orion,25625,13790.34,2025-09-14
+P0007,Electronics Audio Product 7,Electronics,Audio,Mira,9946,6210.02,2024-07-06
+P0008,Electronics Audio Product 8,Electronics,Audio,Orion,2225,1647.22,2024-08-19
+P0009,Electronics Audio Product 9,Electronics,Audio,Nova,32404,22309.51,2025-07-21
+P0010,Electronics Audio Product 10,Electronics,Audio,Zenith,17197,12726.14,2025-03-24
+P0011,Electronics Audio Product 11,Electronics,Audio,Pulse,25922,18466.5,2024-07-24
+P0012,Electronics Audio Product 12,Electronics,Audio,Pulse,33289,25439.06,2025-05-29
+P0013,Electronics Audio Product 13,Electronics,Audio,Aster,29674,19864.04,2024-06-23
+P0014,Electronics Audio Product 14,Electronics,Audio,UrbanX,10471,7682.25,2024-02-17
+P0015,Electronics Audio Product 15,Electronics,Audio,UrbanX,13561,9273.98,2025-10-08
+P0016,Electronics Audio Product 16,Electronics,Audio,Nova,17236,11317.07,2024-11-25
+P0017,Electronics Audio Product 17,Electronics,Audio,Vertex,1306,709.89,2024-02-07
+P0018,Electronics Audio Product 18,Electronics,Audio,Zenith,17638,13051.38,2024-07-03
+P0019,Electronics Audio Product 19,Electronics,Audio,Orion,21201,12730.98,2025-08-06
+P0020,Electronics Audio Product 20,Electronics,Audio,Nova,7194,4360.85,2024-01-23
+P0021,Electronics Audio Product 21,Electronics,Audio,UrbanX,20727,11138.12,2024-11-14
+P0022,Electronics Audio Product 22,Electronics,Audio,Zenith,13901,10036.93,2024-03-21
+P0023,Electronics Audio Product 23,Electronics,Audio,Pulse,28040,19239.75,2024-04-08
+P0024,Electronics Audio Product 24,Electronics,Audio,Pulse,15366,8035.82,2024-04-22
+P0025,Electronics Audio Product 25,Electronics,Audio,Aster,33197,17371.92,2024-06-13
+P0026,Electronics Mobile Accessories Product 26,Electronics,Mobile Accessories,Pulse,14752,7713.24,2024-09-28
+P0027,Electronics Mobile Accessories Product 27,Electronics,Mobile Accessories,Pulse,18234,9473.96,2024-03-20
+P0028,Electronics Mobile Accessories Product 28,Electronics,Mobile Accessories,Zenith,15778,11665.62,2025-09-10
+P0029,Electronics Mobile Accessories Product 29,Electronics,Mobile Accessories,Nova,28352,15179.59,2024-05-13
+P0030,Electronics Mobile Accessories Product 30,Electronics,Mobile Accessories,Zenith,24140,16524.2,2025-09-13
+P0031,Electronics Mobile Accessories Product 31,Electronics,Mobile Accessories,Vertex,33429,23902.03,2025-01-02
+P0032,Electronics Mobile Accessories Product 32,Electronics,Mobile Accessories,Nova,803,537.4,2024-09-09
+P0033,Electronics Mobile Accessories Product 33,Electronics,Mobile Accessories,Nova,8318,6362.96,2025-06-02
+P0034,Electronics Mobile Accessories Product 34,Electronics,Mobile Accessories,Aster,21175,15399.62,2024-04-15
+P0035,Electronics Mobile Accessories Product 35,Electronics,Mobile Accessories,Zenith,27199,17128.95,2024-10-27
+P0036,Electronics Mobile Accessories Product 36,Electronics,Mobile Accessories,Nova,3443,1907.65,2024-09-11
+P0037,Electronics Mobile Accessories Product 37,Electronics,Mobile Accessories,Zenith,870,604.3,2024-12-06
+P0038,Electronics Mobile Accessories Product 38,Electronics,Mobile Accessories,Pulse,1581,1044.9,2024-01-06
+P0039,Electronics Mobile Accessories Product 39,Electronics,Mobile Accessories,Aster,26429,18796.06,2024-11-19
+P0040,Electronics Mobile Accessories Product 40,Electronics,Mobile Accessories,Vertex,13124,7112.07,2025-01-02
+P0041,Electronics Mobile Accessories Product 41,Electronics,Mobile Accessories,Aster,16218,12242.38,2024-05-02
+P0042,Electronics Mobile Accessories Product 42,Electronics,Mobile Accessories,Mira,13351,7544.84,2025-02-24
+P0043,Electronics Mobile Accessories Product 43,Electronics,Mobile Accessories,Aster,27507,19226.19,2025-05-13
+P0044,Electronics Mobile Accessories Product 44,Electronics,Mobile Accessories,Aster,6906,4053.1,2024-03-07
+P0045,Electronics Mobile Accessories Product 45,Electronics,Mobile Accessories,Nova,2252,1208.44,2025-10-09
+P0046,Electronics Mobile Accessories Product 46,Electronics,Mobile Accessories,Orion,9919,7510.66,2025-04-27
+P0047,Electronics Mobile Accessories Product 47,Electronics,Mobile Accessories,Nova,1545,836.91,2024-04-21
+P0048,Electronics Mobile Accessories Product 48,Electronics,Mobile Accessories,Zenith,10020,5585.78,2025-03-29
+P0049,Electronics Mobile Accessories Product 49,Electronics,Mobile Accessories,Aster,8117,4536.51,2025-07-30
+P0050,Electronics Mobile Accessories Product 50,Electronics,Mobile Accessories,Nova,17723,10606.5,2024-12-02
+P0051,Electronics Computing Product 51,Electronics,Computing,Pulse,10148,5657.91,2024-09-13
+P0052,Electronics Computing Product 52,Electronics,Computing,Nova,19070,9628.06,2024-07-27
+P0053,Electronics Computing Product 53,Electronics,Computing,Mira,4815,2665.45,2025-06-05
+P0054,Electronics Computing Product 54,Electronics,Computing,UrbanX,5555,2815.17,2024-05-30
+P0055,Electronics Computing Product 55,Electronics,Computing,UrbanX,10741,6373.33,2024-04-07
+P0056,Electronics Computing Product 56,Electronics,Computing,Mira,10686,6721.78,2025-07-09
+P0057,Electronics Computing Product 57,Electronics,Computing,Mira,9238,5070.59,2024-02-21
+P0058,Electronics Computing Product 58,Electronics,Computing,Orion,11394,7584.92,2025-08-07
+P0059,Electronics Computing Product 59,Electronics,Computing,Pulse,32833,21962.17,2025-01-13
+P0060,Electronics Computing Product 60,Electronics,Computing,Nova,15160,9047.12,2025-05-01
+P0061,Electronics Computing Product 61,Electronics,Computing,Zenith,3840,2007.93,2024-12-31
+P0062,Electronics Computing Product 62,Electronics,Computing,Aster,29513,15778.86,2024-04-10
+P0063,Electronics Computing Product 63,Electronics,Computing,Aster,10023,6467.7,2025-01-07
+P0064,Electronics Computing Product 64,Electronics,Computing,Orion,13505,8756.91,2024-08-04
+P0065,Electronics Computing Product 65,Electronics,Computing,Vertex,22914,13218.34,2024-03-20
+P0066,Electronics Computing Product 66,Electronics,Computing,Zenith,17467,11917.24,2024-02-15
+P0067,Electronics Computing Product 67,Electronics,Computing,Vertex,24727,13718.5,2024-01-29
+P0068,Electronics Computing Product 68,Electronics,Computing,Mira,34574,17556.35,2025-05-31
+P0069,Electronics Computing Product 69,Electronics,Computing,Zenith,10430,7833.14,2024-10-24
+P0070,Electronics Computing Product 70,Electronics,Computing,Aster,2969,1917.2,2025-09-16
+P0071,Electronics Computing Product 71,Electronics,Computing,UrbanX,28140,17056.73,2024-03-06
+P0072,Electronics Computing Product 72,Electronics,Computing,Aster,22561,13652.54,2024-11-07
+P0073,Electronics Computing Product 73,Electronics,Computing,Aster,29669,17851.49,2024-08-28
+P0074,Electronics Computing Product 74,Electronics,Computing,Nova,31469,22026.9,2024-02-07
+P0075,Electronics Computing Product 75,Electronics,Computing,UrbanX,30550,21356.81,2025-09-29
+P0076,Electronics Wearables Product 76,Electronics,Wearables,Zenith,27548,19543.67,2025-10-08
+P0077,Electronics Wearables Product 77,Electronics,Wearables,Mira,9433,5072.8,2025-06-20
+P0078,Electronics Wearables Product 78,Electronics,Wearables,Mira,25416,19401.68,2024-08-16
+P0079,Electronics Wearables Product 79,Electronics,Wearables,Vertex,3105,1866.78,2025-04-08
+P0080,Electronics Wearables Product 80,Electronics,Wearables,Zenith,23574,14198.05,2025-05-29
+P0081,Electronics Wearables Product 81,Electronics,Wearables,Mira,32196,18095.55,2025-06-01
+P0082,Electronics Wearables Product 82,Electronics,Wearables,Vertex,13719,10032.48,2025-09-25
+P0083,Electronics Wearables Product 83,Electronics,Wearables,Nova,2507,1541.22,2025-03-26
+P0084,Electronics Wearables Product 84,Electronics,Wearables,Nova,8559,5794.65,2025-01-29
+P0085,Electronics Wearables Product 85,Electronics,Wearables,Orion,1225,774.13,2024-11-08
+P0086,Electronics Wearables Product 86,Electronics,Wearables,Mira,20706,15800.66,2025-04-07
+P0087,Electronics Wearables Product 87,Electronics,Wearables,Mira,15659,10759.42,2024-11-11
+P0088,Electronics Wearables Product 88,Electronics,Wearables,Orion,11904,9033.94,2024-09-10
+P0089,Electronics Wearables Product 89,Electronics,Wearables,Nova,14645,9967.65,2025-02-22
+P0090,Electronics Wearables Product 90,Electronics,Wearables,Zenith,24105,17401.56,2025-06-29
+P0091,Electronics Wearables Product 91,Electronics,Wearables,Vertex,12090,8949.82,2024-11-10
+P0092,Electronics Wearables Product 92,Electronics,Wearables,Nova,3693,1947.98,2024-02-09
+P0093,Electronics Wearables Product 93,Electronics,Wearables,UrbanX,15360,11660.07,2025-08-07
+P0094,Electronics Wearables Product 94,Electronics,Wearables,Nova,16635,11811.15,2024-03-02
+P0095,Electronics Wearables Product 95,Electronics,Wearables,UrbanX,6180,4416.25,2025-09-12
+P0096,Electronics Wearables Product 96,Electronics,Wearables,Nova,3328,2250.65,2024-12-06
+P0097,Electronics Wearables Product 97,Electronics,Wearables,Vertex,34142,20348.47,2025-09-13
+P0098,Electronics Wearables Product 98,Electronics,Wearables,Pulse,10835,6533.31,2025-08-11
+P0099,Electronics Wearables Product 99,Electronics,Wearables,Mira,34295,17725.01,2025-09-07
+P0100,Electronics Wearables Product 100,Electronics,Wearables,Orion,18648,10804.92,2025-06-15
+P0101,Home & Kitchen Kitchen Product 101,Home & Kitchen,Kitchen,Orion,10390,7456.13,2025-04-04
+P0102,Home & Kitchen Kitchen Product 102,Home & Kitchen,Kitchen,Nova,2178,1418.36,2025-07-11
+P0103,Home & Kitchen Kitchen Product 103,Home & Kitchen,Kitchen,Orion,1790,1378.19,2025-05-05
+P0104,Home & Kitchen Kitchen Product 104,Home & Kitchen,Kitchen,Vertex,14835,11448.39,2025-04-09
+P0105,Home & Kitchen Kitchen Product 105,Home & Kitchen,Kitchen,Mira,10195,7159.3,2025-05-12
+P0106,Home & Kitchen Kitchen Product 106,Home & Kitchen,Kitchen,Pulse,6310,3297.55,2024-01-13
+P0107,Home & Kitchen Kitchen Product 107,Home & Kitchen,Kitchen,Zenith,4397,2995.71,2025-07-20
+P0108,Home & Kitchen Kitchen Product 108,Home & Kitchen,Kitchen,Mira,12828,9791.6,2024-09-24
+P0109,Home & Kitchen Kitchen Product 109,Home & Kitchen,Kitchen,Aster,15128,8332.6,2024-06-23
+P0110,Home & Kitchen Kitchen Product 110,Home & Kitchen,Kitchen,Pulse,4331,2815.47,2024-01-03
+P0111,Home & Kitchen Kitchen Product 111,Home & Kitchen,Kitchen,Orion,17704,13161.0,2024-04-26
+P0112,Home & Kitchen Kitchen Product 112,Home & Kitchen,Kitchen,Pulse,659,432.38,2025-05-11
+P0113,Home & Kitchen Kitchen Product 113,Home & Kitchen,Kitchen,Pulse,15737,12109.2,2025-10-03
+P0114,Home & Kitchen Kitchen Product 114,Home & Kitchen,Kitchen,Orion,2184,1358.41,2025-04-16
+P0115,Home & Kitchen Kitchen Product 115,Home & Kitchen,Kitchen,Orion,7155,4066.32,2025-07-06
+P0116,Home & Kitchen Kitchen Product 116,Home & Kitchen,Kitchen,Mira,13349,8104.95,2025-06-18
+P0117,Home & Kitchen Kitchen Product 117,Home & Kitchen,Kitchen,Vertex,7229,4433.33,2025-09-21
+P0118,Home & Kitchen Kitchen Product 118,Home & Kitchen,Kitchen,Orion,2211,1440.47,2024-11-19
+P0119,Home & Kitchen Kitchen Product 119,Home & Kitchen,Kitchen,Zenith,12521,9331.3,2024-09-15
+P0120,Home & Kitchen Kitchen Product 120,Home & Kitchen,Kitchen,Nova,3399,2516.59,2024-06-17
+P0121,Home & Kitchen Kitchen Product 121,Home & Kitchen,Kitchen,UrbanX,2994,1687.02,2025-07-14
+P0122,Home & Kitchen Kitchen Product 122,Home & Kitchen,Kitchen,Vertex,6939,4130.45,2025-04-08
+P0123,Home & Kitchen Kitchen Product 123,Home & Kitchen,Kitchen,Orion,14025,9441.16,2024-02-17
+P0124,Home & Kitchen Kitchen Product 124,Home & Kitchen,Kitchen,Nova,578,448.56,2025-04-01
+P0125,Home & Kitchen Kitchen Product 125,Home & Kitchen,Kitchen,Pulse,16561,10910.7,2024-08-15
+P0126,Home & Kitchen Home Appliances Product 126,Home & Kitchen,Home Appliances,UrbanX,12467,9547.51,2025-06-02
+P0127,Home & Kitchen Home Appliances Product 127,Home & Kitchen,Home Appliances,Orion,15740,9486.72,2024-12-17
+P0128,Home & Kitchen Home Appliances Product 128,Home & Kitchen,Home Appliances,Vertex,10758,5594.17,2025-05-29
+P0129,Home & Kitchen Home Appliances Product 129,Home & Kitchen,Home Appliances,Orion,7880,5295.51,2025-09-15
+P0130,Home & Kitchen Home Appliances Product 130,Home & Kitchen,Home Appliances,Mira,4126,2608.55,2025-01-20
+P0131,Home & Kitchen Home Appliances Product 131,Home & Kitchen,Home Appliances,UrbanX,15835,11756.51,2025-05-17
+P0132,Home & Kitchen Home Appliances Product 132,Home & Kitchen,Home Appliances,Zenith,17745,10866.66,2025-10-06
+P0133,Home & Kitchen Home Appliances Product 133,Home & Kitchen,Home Appliances,Vertex,3332,2583.15,2024-04-30
+P0134,Home & Kitchen Home Appliances Product 134,Home & Kitchen,Home Appliances,Vertex,17527,11750.18,2024-06-21
+P0135,Home & Kitchen Home Appliances Product 135,Home & Kitchen,Home Appliances,Pulse,6224,4122.43,2025-09-16
+P0136,Home & Kitchen Home Appliances Product 136,Home & Kitchen,Home Appliances,Nova,13679,9425.15,2025-04-13
+P0137,Home & Kitchen Home Appliances Product 137,Home & Kitchen,Home Appliances,Orion,7439,4933.36,2025-08-15
+P0138,Home & Kitchen Home Appliances Product 138,Home & Kitchen,Home Appliances,Nova,2884,1556.27,2024-11-26
+P0139,Home & Kitchen Home Appliances Product 139,Home & Kitchen,Home Appliances,UrbanX,6481,4279.31,2025-08-30
+P0140,Home & Kitchen Home Appliances Product 140,Home & Kitchen,Home Appliances,Vertex,1562,1104.36,2025-03-14
+P0141,Home & Kitchen Home Appliances Product 141,Home & Kitchen,Home Appliances,Zenith,17842,11011.66,2024-07-26
+P0142,Home & Kitchen Home Appliances Product 142,Home & Kitchen,Home Appliances,Aster,2653,1701.33,2024-05-04
+P0143,Home & Kitchen Home Appliances Product 143,Home & Kitchen,Home Appliances,Pulse,8138,5664.99,2025-08-27
+P0144,Home & Kitchen Home Appliances Product 144,Home & Kitchen,Home Appliances,Pulse,13367,7080.64,2024-09-10
+P0145,Home & Kitchen Home Appliances Product 145,Home & Kitchen,Home Appliances,UrbanX,15268,11729.23,2024-08-20
+P0146,Home & Kitchen Home Appliances Product 146,Home & Kitchen,Home Appliances,Mira,16595,10595.7,2025-06-02
+P0147,Home & Kitchen Home Appliances Product 147,Home & Kitchen,Home Appliances,Orion,6662,4169.31,2024-09-01
+P0148,Home & Kitchen Home Appliances Product 148,Home & Kitchen,Home Appliances,Orion,1623,1012.39,2024-08-18
+P0149,Home & Kitchen Home Appliances Product 149,Home & Kitchen,Home Appliances,Vertex,11772,6745.51,2024-12-23
+P0150,Home & Kitchen Home Appliances Product 150,Home & Kitchen,Home Appliances,Nova,1898,1004.85,2024-02-25
+P0151,Home & Kitchen Storage Product 151,Home & Kitchen,Storage,Mira,5186,3921.76,2024-09-18
+P0152,Home & Kitchen Storage Product 152,Home & Kitchen,Storage,Aster,2684,1599.83,2025-07-10
+P0153,Home & Kitchen Storage Product 153,Home & Kitchen,Storage,Mira,5603,3344.2,2024-08-08
+P0154,Home & Kitchen Storage Product 154,Home & Kitchen,Storage,Aster,6853,5271.85,2024-05-12
+P0155,Home & Kitchen Storage Product 155,Home & Kitchen,Storage,Zenith,12473,6793.17,2025-03-03
+P0156,Home & Kitchen Storage Product 156,Home & Kitchen,Storage,UrbanX,2828,2146.32,2025-08-02
+P0157,Home & Kitchen Storage Product 157,Home & Kitchen,Storage,Nova,13362,7891.54,2024-03-20
+P0158,Home & Kitchen Storage Product 158,Home & Kitchen,Storage,UrbanX,833,490.73,2025-01-06
+P0159,Home & Kitchen Storage Product 159,Home & Kitchen,Storage,Pulse,3408,1939.63,2024-10-14
+P0160,Home & Kitchen Storage Product 160,Home & Kitchen,Storage,Pulse,8138,4293.61,2025-05-25
+P0161,Home & Kitchen Storage Product 161,Home & Kitchen,Storage,Zenith,13423,9538.56,2024-10-14
+P0162,Home & Kitchen Storage Product 162,Home & Kitchen,Storage,Vertex,3406,1861.72,2025-02-15
+P0163,Home & Kitchen Storage Product 163,Home & Kitchen,Storage,Nova,15673,10745.44,2025-09-04
+P0164,Home & Kitchen Storage Product 164,Home & Kitchen,Storage,UrbanX,17779,9870.79,2025-06-16
+P0165,Home & Kitchen Storage Product 165,Home & Kitchen,Storage,Zenith,4924,2978.71,2024-09-03
+P0166,Home & Kitchen Storage Product 166,Home & Kitchen,Storage,Aster,8059,4814.97,2025-03-01
+P0167,Home & Kitchen Storage Product 167,Home & Kitchen,Storage,Nova,5469,2878.36,2024-04-06
+P0168,Home & Kitchen Storage Product 168,Home & Kitchen,Storage,Nova,2761,2099.62,2024-07-11
+P0169,Home & Kitchen Storage Product 169,Home & Kitchen,Storage,Orion,4159,3095.69,2024-11-27
+P0170,Home & Kitchen Storage Product 170,Home & Kitchen,Storage,Orion,9400,6266.85,2024-10-13
+P0171,Home & Kitchen Storage Product 171,Home & Kitchen,Storage,Zenith,3601,2205.68,2024-11-08
+P0172,Home & Kitchen Storage Product 172,Home & Kitchen,Storage,UrbanX,13534,7281.22,2024-01-20
+P0173,Home & Kitchen Storage Product 173,Home & Kitchen,Storage,Nova,10464,5320.86,2025-04-30
+P0174,Home & Kitchen Storage Product 174,Home & Kitchen,Storage,UrbanX,13512,9679.12,2025-06-29
+P0175,Home & Kitchen Storage Product 175,Home & Kitchen,Storage,Nova,14594,9863.74,2025-06-22
+P0176,Home & Kitchen Decor Product 176,Home & Kitchen,Decor,Vertex,13286,10006.72,2024-01-08
+P0177,Home & Kitchen Decor Product 177,Home & Kitchen,Decor,UrbanX,9799,6775.8,2025-06-30
+P0178,Home & Kitchen Decor Product 178,Home & Kitchen,Decor,Aster,15968,10810.91,2024-01-23
+P0179,Home & Kitchen Decor Product 179,Home & Kitchen,Decor,Nova,1231,686.96,2024-06-04
+P0180,Home & Kitchen Decor Product 180,Home & Kitchen,Decor,Zenith,1941,1303.0,2025-03-11
+P0181,Home & Kitchen Decor Product 181,Home & Kitchen,Decor,Vertex,14867,7940.52,2024-03-15
+P0182,Home & Kitchen Decor Product 182,Home & Kitchen,Decor,UrbanX,13527,9749.7,2025-06-06
+P0183,Home & Kitchen Decor Product 183,Home & Kitchen,Decor,Pulse,15248,7934.5,2025-08-09
+P0184,Home & Kitchen Decor Product 184,Home & Kitchen,Decor,Vertex,10282,6925.34,2024-12-28
+P0185,Home & Kitchen Decor Product 185,Home & Kitchen,Decor,Aster,9658,6935.05,2024-01-10
+P0186,Home & Kitchen Decor Product 186,Home & Kitchen,Decor,Nova,10208,5535.27,2024-10-13
+P0187,Home & Kitchen Decor Product 187,Home & Kitchen,Decor,Zenith,1935,988.01,2024-09-09
+P0188,Home & Kitchen Decor Product 188,Home & Kitchen,Decor,Vertex,10914,6547.09,2025-08-04
+P0189,Home & Kitchen Decor Product 189,Home & Kitchen,Decor,Mira,1085,660.97,2024-02-10
+P0190,Home & Kitchen Decor Product 190,Home & Kitchen,Decor,Orion,17335,10211.68,2024-02-11
+P0191,Home & Kitchen Decor Product 191,Home & Kitchen,Decor,Orion,13560,7502.36,2025-06-05
+P0192,Home & Kitchen Decor Product 192,Home & Kitchen,Decor,Orion,3666,2746.22,2024-05-08
+P0193,Home & Kitchen Decor Product 193,Home & Kitchen,Decor,Orion,2568,1797.52,2025-08-05
+P0194,Home & Kitchen Decor Product 194,Home & Kitchen,Decor,Orion,5647,3682.39,2025-08-19
+P0195,Home & Kitchen Decor Product 195,Home & Kitchen,Decor,Nova,15728,12205.15,2025-04-10
+P0196,Home & Kitchen Decor Product 196,Home & Kitchen,Decor,Vertex,901,541.85,2024-08-20
+P0197,Home & Kitchen Decor Product 197,Home & Kitchen,Decor,Orion,6718,4429.4,2024-08-22
+P0198,Home & Kitchen Decor Product 198,Home & Kitchen,Decor,Mira,15694,8637.08,2025-04-29
+P0199,Home & Kitchen Decor Product 199,Home & Kitchen,Decor,Zenith,14205,8235.25,2024-05-03
+P0200,Home & Kitchen Decor Product 200,Home & Kitchen,Decor,Nova,12810,8916.91,2025-09-19
+P0201,Fashion Men Product 201,Fashion,Men,UrbanX,1510,954.2,2025-07-19
+P0202,Fashion Men Product 202,Fashion,Men,UrbanX,6979,4636.5,2024-04-27
+P0203,Fashion Men Product 203,Fashion,Men,Vertex,6150,4017.86,2025-03-03
+P0204,Fashion Men Product 204,Fashion,Men,Aster,4766,2885.69,2025-04-01
+P0205,Fashion Men Product 205,Fashion,Men,Mira,812,480.63,2024-08-27
+P0206,Fashion Men Product 206,Fashion,Men,UrbanX,5617,3554.31,2024-01-14
+P0207,Fashion Men Product 207,Fashion,Men,Orion,3051,1714.06,2024-10-30
+P0208,Fashion Men Product 208,Fashion,Men,Vertex,458,247.39,2025-02-22
+P0209,Fashion Men Product 209,Fashion,Men,Orion,5217,3604.79,2024-06-28
+P0210,Fashion Men Product 210,Fashion,Men,Vertex,6522,4807.44,2024-03-29
+P0211,Fashion Men Product 211,Fashion,Men,Zenith,1545,1010.17,2025-04-27
+P0212,Fashion Men Product 212,Fashion,Men,Nova,5229,2833.96,2024-03-07
+P0213,Fashion Men Product 213,Fashion,Men,UrbanX,5589,4159.54,2024-08-06
+P0214,Fashion Men Product 214,Fashion,Men,Aster,6527,3950.6,2024-12-24
+P0215,Fashion Men Product 215,Fashion,Men,Vertex,5246,3695.35,2025-10-03
+P0216,Fashion Men Product 216,Fashion,Men,Aster,2334,1738.45,2024-06-22
+P0217,Fashion Men Product 217,Fashion,Men,Aster,5094,2597.55,2024-07-26
+P0218,Fashion Men Product 218,Fashion,Men,Orion,2009,1117.49,2025-09-02
+P0219,Fashion Men Product 219,Fashion,Men,Pulse,2400,1291.63,2025-03-10
+P0220,Fashion Men Product 220,Fashion,Men,Orion,1107,704.78,2024-02-28
+P0221,Fashion Men Product 221,Fashion,Men,Mira,6807,4268.08,2024-01-29
+P0222,Fashion Men Product 222,Fashion,Men,UrbanX,2407,1729.97,2024-12-04
+P0223,Fashion Men Product 223,Fashion,Men,Orion,4973,3222.27,2025-06-27
+P0224,Fashion Men Product 224,Fashion,Men,Pulse,1990,1182.26,2025-06-16
+P0225,Fashion Men Product 225,Fashion,Men,Zenith,5682,3399.9,2024-11-21
+P0226,Fashion Women Product 226,Fashion,Women,Mira,5257,3489.41,2025-04-21
+P0227,Fashion Women Product 227,Fashion,Women,Nova,6404,4657.67,2025-07-04
+P0228,Fashion Women Product 228,Fashion,Women,Zenith,1329,826.63,2024-07-06
+P0229,Fashion Women Product 229,Fashion,Women,Nova,2201,1261.06,2024-06-28
+P0230,Fashion Women Product 230,Fashion,Women,Zenith,4568,3369.25,2025-04-19
+P0231,Fashion Women Product 231,Fashion,Women,Orion,4081,2048.85,2024-12-06
+P0232,Fashion Women Product 232,Fashion,Women,Mira,5757,3381.09,2024-06-06
+P0233,Fashion Women Product 233,Fashion,Women,Aster,4272,2736.79,2025-01-28
+P0234,Fashion Women Product 234,Fashion,Women,Nova,4725,3615.98,2024-06-14
+P0235,Fashion Women Product 235,Fashion,Women,Vertex,1992,1354.9,2024-02-12
+P0236,Fashion Women Product 236,Fashion,Women,Mira,3371,2624.54,2024-09-05
+P0237,Fashion Women Product 237,Fashion,Women,Nova,6327,3310.89,2025-04-19
+P0238,Fashion Women Product 238,Fashion,Women,Orion,3343,2358.01,2024-12-19
+P0239,Fashion Women Product 239,Fashion,Women,Vertex,3379,1728.55,2025-05-13
+P0240,Fashion Women Product 240,Fashion,Women,Orion,366,188.53,2024-10-25
+P0241,Fashion Women Product 241,Fashion,Women,Pulse,6465,3961.12,2024-03-04
+P0242,Fashion Women Product 242,Fashion,Women,UrbanX,3979,2853.39,2024-10-30
+P0243,Fashion Women Product 243,Fashion,Women,Nova,5488,3649.93,2024-03-09
+P0244,Fashion Women Product 244,Fashion,Women,Pulse,2449,1806.88,2024-12-06
+P0245,Fashion Women Product 245,Fashion,Women,Aster,5723,2961.84,2024-07-05
+P0246,Fashion Women Product 246,Fashion,Women,Mira,3385,2047.49,2024-01-10
+P0247,Fashion Women Product 247,Fashion,Women,Pulse,949,483.02,2025-08-10
+P0248,Fashion Women Product 248,Fashion,Women,Nova,4927,3183.59,2025-08-28
+P0249,Fashion Women Product 249,Fashion,Women,UrbanX,3813,2934.82,2025-04-21
+P0250,Fashion Women Product 250,Fashion,Women,Nova,5937,4447.0,2024-11-10
+P0251,Fashion Footwear Product 251,Fashion,Footwear,Vertex,1117,827.72,2025-01-19
+P0252,Fashion Footwear Product 252,Fashion,Footwear,Orion,6137,3493.46,2025-05-12
+P0253,Fashion Footwear Product 253,Fashion,Footwear,Vertex,3774,2775.0,2024-03-23
+P0254,Fashion Footwear Product 254,Fashion,Footwear,Vertex,4136,2524.53,2024-04-29
+P0255,Fashion Footwear Product 255,Fashion,Footwear,Vertex,6382,3332.34,2025-05-12
+P0256,Fashion Footwear Product 256,Fashion,Footwear,Zenith,6504,4432.25,2024-01-21
+P0257,Fashion Footwear Product 257,Fashion,Footwear,Nova,6046,3529.05,2025-09-08
+P0258,Fashion Footwear Product 258,Fashion,Footwear,Zenith,6244,4634.93,2024-09-01
+P0259,Fashion Footwear Product 259,Fashion,Footwear,Aster,6327,3911.84,2024-08-22
+P0260,Fashion Footwear Product 260,Fashion,Footwear,Orion,408,313.45,2025-06-19
+P0261,Fashion Footwear Product 261,Fashion,Footwear,Vertex,337,250.74,2024-04-10
+P0262,Fashion Footwear Product 262,Fashion,Footwear,Vertex,1864,1181.18,2025-03-01
+P0263,Fashion Footwear Product 263,Fashion,Footwear,Orion,6546,3672.12,2025-03-22
+P0264,Fashion Footwear Product 264,Fashion,Footwear,Orion,3012,1919.61,2024-12-16
+P0265,Fashion Footwear Product 265,Fashion,Footwear,Mira,5758,2959.42,2024-04-08
+P0266,Fashion Footwear Product 266,Fashion,Footwear,Pulse,4234,2180.37,2025-01-06
+P0267,Fashion Footwear Product 267,Fashion,Footwear,UrbanX,6999,4042.45,2024-10-08
+P0268,Fashion Footwear Product 268,Fashion,Footwear,Nova,6313,4386.23,2024-01-12
+P0269,Fashion Footwear Product 269,Fashion,Footwear,Orion,1529,994.43,2025-09-06
+P0270,Fashion Footwear Product 270,Fashion,Footwear,Pulse,1227,842.79,2025-05-13
+P0271,Fashion Footwear Product 271,Fashion,Footwear,Mira,1841,1017.2,2025-03-08
+P0272,Fashion Footwear Product 272,Fashion,Footwear,Pulse,2584,1612.53,2024-07-22
+P0273,Fashion Footwear Product 273,Fashion,Footwear,Mira,4539,3297.67,2024-02-02
+P0274,Fashion Footwear Product 274,Fashion,Footwear,Orion,5575,3692.67,2025-05-22
+P0275,Fashion Footwear Product 275,Fashion,Footwear,Orion,6815,5136.96,2024-08-30
+P0276,Fashion Accessories Product 276,Fashion,Accessories,Zenith,6470,3737.38,2024-10-21
+P0277,Fashion Accessories Product 277,Fashion,Accessories,Vertex,2562,1610.19,2024-11-29
+P0278,Fashion Accessories Product 278,Fashion,Accessories,Mira,6149,4743.88,2024-07-08
+P0279,Fashion Accessories Product 279,Fashion,Accessories,Mira,3007,1631.82,2024-08-28
+P0280,Fashion Accessories Product 280,Fashion,Accessories,Nova,2253,1351.49,2024-04-14
+P0281,Fashion Accessories Product 281,Fashion,Accessories,UrbanX,3337,2203.63,2024-02-03
+P0282,Fashion Accessories Product 282,Fashion,Accessories,Pulse,5313,3084.96,2024-11-28
+P0283,Fashion Accessories Product 283,Fashion,Accessories,Nova,4906,3165.21,2025-01-09
+P0284,Fashion Accessories Product 284,Fashion,Accessories,UrbanX,4152,2333.45,2024-08-27
+P0285,Fashion Accessories Product 285,Fashion,Accessories,Pulse,4522,3001.86,2024-12-03
+P0286,Fashion Accessories Product 286,Fashion,Accessories,Pulse,1800,1168.1,2024-08-08
+P0287,Fashion Accessories Product 287,Fashion,Accessories,UrbanX,808,452.09,2024-04-23
+P0288,Fashion Accessories Product 288,Fashion,Accessories,Mira,2014,1473.39,2025-08-13
+P0289,Fashion Accessories Product 289,Fashion,Accessories,Aster,6226,4217.59,2025-02-28
+P0290,Fashion Accessories Product 290,Fashion,Accessories,Nova,5130,2706.65,2025-04-05
+P0291,Fashion Accessories Product 291,Fashion,Accessories,Nova,2545,1977.74,2025-09-17
+P0292,Fashion Accessories Product 292,Fashion,Accessories,Aster,510,326.98,2024-07-05
+P0293,Fashion Accessories Product 293,Fashion,Accessories,Mira,3418,2449.73,2024-10-21
+P0294,Fashion Accessories Product 294,Fashion,Accessories,Pulse,2458,1777.78,2024-02-01
+P0295,Fashion Accessories Product 295,Fashion,Accessories,Orion,2243,1378.33,2024-03-19
+P0296,Fashion Accessories Product 296,Fashion,Accessories,Pulse,6823,3495.5,2024-05-24
+P0297,Fashion Accessories Product 297,Fashion,Accessories,UrbanX,819,544.55,2025-04-12
+P0298,Fashion Accessories Product 298,Fashion,Accessories,UrbanX,3568,1851.95,2024-05-11
+P0299,Fashion Accessories Product 299,Fashion,Accessories,Vertex,5414,3629.27,2024-04-10
+P0300,Fashion Accessories Product 300,Fashion,Accessories,Orion,1976,1067.25,2025-03-25
+P0301,Beauty Skincare Product 301,Beauty,Skincare,UrbanX,3389,1775.17,2025-04-23
+P0302,Beauty Skincare Product 302,Beauty,Skincare,Mira,1327,880.91,2025-03-07
+P0303,Beauty Skincare Product 303,Beauty,Skincare,UrbanX,4034,2961.07,2025-03-27
+P0304,Beauty Skincare Product 304,Beauty,Skincare,Nova,4021,2661.44,2024-09-18
+P0305,Beauty Skincare Product 305,Beauty,Skincare,UrbanX,3763,2522.57,2025-10-11
+P0306,Beauty Skincare Product 306,Beauty,Skincare,Mira,1808,1181.37,2025-08-24
+P0307,Beauty Skincare Product 307,Beauty,Skincare,Aster,3217,2332.57,2025-09-03
+P0308,Beauty Skincare Product 308,Beauty,Skincare,Zenith,2750,1751.62,2024-12-17
+P0309,Beauty Skincare Product 309,Beauty,Skincare,Nova,3741,2183.83,2024-03-08
+P0310,Beauty Skincare Product 310,Beauty,Skincare,Orion,3152,2338.04,2024-08-27
+P0311,Beauty Skincare Product 311,Beauty,Skincare,UrbanX,4299,3151.3,2025-08-16
+P0312,Beauty Skincare Product 312,Beauty,Skincare,Orion,498,311.49,2025-07-27
+P0313,Beauty Skincare Product 313,Beauty,Skincare,Nova,285,199.98,2024-06-21
+P0314,Beauty Skincare Product 314,Beauty,Skincare,UrbanX,2755,1569.44,2024-11-14
+P0315,Beauty Skincare Product 315,Beauty,Skincare,Aster,1850,1136.09,2025-08-23
+P0316,Beauty Skincare Product 316,Beauty,Skincare,Aster,4816,3391.01,2024-07-09
+P0317,Beauty Skincare Product 317,Beauty,Skincare,Pulse,2517,1261.26,2024-06-10
+P0318,Beauty Skincare Product 318,Beauty,Skincare,Pulse,398,294.33,2024-03-27
+P0319,Beauty Skincare Product 319,Beauty,Skincare,Vertex,3186,1604.01,2024-11-15
+P0320,Beauty Skincare Product 320,Beauty,Skincare,Nova,3691,2035.5,2024-08-18
+P0321,Beauty Skincare Product 321,Beauty,Skincare,Orion,2492,1383.7,2024-05-14
+P0322,Beauty Skincare Product 322,Beauty,Skincare,Vertex,4647,3300.95,2024-06-27
+P0323,Beauty Skincare Product 323,Beauty,Skincare,Aster,493,261.97,2025-10-08
+P0324,Beauty Skincare Product 324,Beauty,Skincare,Orion,662,496.96,2025-02-27
+P0325,Beauty Skincare Product 325,Beauty,Skincare,Mira,4727,3415.11,2024-08-18
+P0326,Beauty Haircare Product 326,Beauty,Haircare,Zenith,329,210.55,2025-02-15
+P0327,Beauty Haircare Product 327,Beauty,Haircare,Mira,302,203.55,2025-08-19
+P0328,Beauty Haircare Product 328,Beauty,Haircare,Orion,4412,2557.16,2025-06-27
+P0329,Beauty Haircare Product 329,Beauty,Haircare,Vertex,2045,1242.12,2024-07-02
+P0330,Beauty Haircare Product 330,Beauty,Haircare,Mira,4061,2461.73,2024-09-23
+P0331,Beauty Haircare Product 331,Beauty,Haircare,Pulse,2015,1083.55,2024-06-16
+P0332,Beauty Haircare Product 332,Beauty,Haircare,Nova,2375,1343.16,2024-11-04
+P0333,Beauty Haircare Product 333,Beauty,Haircare,UrbanX,4120,2123.28,2024-10-09
+P0334,Beauty Haircare Product 334,Beauty,Haircare,Nova,2270,1220.99,2025-05-30
+P0335,Beauty Haircare Product 335,Beauty,Haircare,Zenith,204,113.5,2024-03-29
+P0336,Beauty Haircare Product 336,Beauty,Haircare,Aster,2773,1601.16,2025-04-07
+P0337,Beauty Haircare Product 337,Beauty,Haircare,Pulse,4175,2310.74,2024-07-28
+P0338,Beauty Haircare Product 338,Beauty,Haircare,Zenith,523,399.08,2025-01-14
+P0339,Beauty Haircare Product 339,Beauty,Haircare,Nova,1430,939.21,2024-03-26
+P0340,Beauty Haircare Product 340,Beauty,Haircare,Pulse,2488,1660.89,2024-01-07
+P0341,Beauty Haircare Product 341,Beauty,Haircare,Nova,371,203.75,2025-01-25
+P0342,Beauty Haircare Product 342,Beauty,Haircare,Orion,1299,968.29,2025-03-16
+P0343,Beauty Haircare Product 343,Beauty,Haircare,Orion,2419,1510.15,2024-12-25
+P0344,Beauty Haircare Product 344,Beauty,Haircare,UrbanX,532,342.53,2024-03-22
+P0345,Beauty Haircare Product 345,Beauty,Haircare,Aster,4620,2688.52,2024-08-23
+P0346,Beauty Haircare Product 346,Beauty,Haircare,UrbanX,581,390.47,2025-09-06
+P0347,Beauty Haircare Product 347,Beauty,Haircare,Nova,1284,755.22,2024-03-08
+P0348,Beauty Haircare Product 348,Beauty,Haircare,Vertex,3735,2269.11,2024-07-25
+P0349,Beauty Haircare Product 349,Beauty,Haircare,Orion,4197,2146.57,2024-06-28
+P0350,Beauty Haircare Product 350,Beauty,Haircare,Orion,3566,2087.87,2024-05-02
+P0351,Beauty Personal Care Product 351,Beauty,Personal Care,Orion,2347,1810.17,2024-04-10
+P0352,Beauty Personal Care Product 352,Beauty,Personal Care,UrbanX,2393,1307.91,2024-02-05
+P0353,Beauty Personal Care Product 353,Beauty,Personal Care,Mira,2541,1594.67,2024-04-28
+P0354,Beauty Personal Care Product 354,Beauty,Personal Care,Pulse,2474,1859.59,2025-02-05
+P0355,Beauty Personal Care Product 355,Beauty,Personal Care,Mira,942,726.86,2025-05-02
+P0356,Beauty Personal Care Product 356,Beauty,Personal Care,Nova,4749,3267.41,2024-02-13
+P0357,Beauty Personal Care Product 357,Beauty,Personal Care,Aster,3977,2679.49,2025-09-10
+P0358,Beauty Personal Care Product 358,Beauty,Personal Care,Aster,1497,1119.38,2024-06-10
+P0359,Beauty Personal Care Product 359,Beauty,Personal Care,Orion,321,228.64,2024-12-09
+P0360,Beauty Personal Care Product 360,Beauty,Personal Care,Vertex,3619,2122.64,2024-06-10
+P0361,Beauty Personal Care Product 361,Beauty,Personal Care,Mira,3648,2490.15,2024-09-15
+P0362,Beauty Personal Care Product 362,Beauty,Personal Care,Nova,3100,1610.58,2025-05-13
+P0363,Beauty Personal Care Product 363,Beauty,Personal Care,UrbanX,3316,1725.45,2025-06-17
+P0364,Beauty Personal Care Product 364,Beauty,Personal Care,Mira,402,276.1,2025-08-04
+P0365,Beauty Personal Care Product 365,Beauty,Personal Care,UrbanX,1045,760.8,2024-02-08
+P0366,Beauty Personal Care Product 366,Beauty,Personal Care,Pulse,1420,995.98,2025-03-07
+P0367,Beauty Personal Care Product 367,Beauty,Personal Care,UrbanX,1198,707.19,2024-05-01
+P0368,Beauty Personal Care Product 368,Beauty,Personal Care,Aster,314,222.79,2024-11-20
+P0369,Beauty Personal Care Product 369,Beauty,Personal Care,Aster,3413,1833.54,2025-09-23
+P0370,Beauty Personal Care Product 370,Beauty,Personal Care,Mira,957,606.53,2024-12-03
+P0371,Beauty Personal Care Product 371,Beauty,Personal Care,Zenith,2562,1690.21,2025-03-06
+P0372,Beauty Personal Care Product 372,Beauty,Personal Care,Aster,3003,1532.92,2024-06-17
+P0373,Beauty Personal Care Product 373,Beauty,Personal Care,Nova,1934,1244.98,2024-05-11
+P0374,Beauty Personal Care Product 374,Beauty,Personal Care,Zenith,4420,2555.04,2025-06-17
+P0375,Beauty Personal Care Product 375,Beauty,Personal Care,Nova,2792,2049.96,2025-07-16
+P0376,Beauty Makeup Product 376,Beauty,Makeup,UrbanX,2606,1643.48,2025-07-11
+P0377,Beauty Makeup Product 377,Beauty,Makeup,Nova,4342,2580.14,2025-06-17
+P0378,Beauty Makeup Product 378,Beauty,Makeup,Zenith,1457,744.85,2025-03-04
+P0379,Beauty Makeup Product 379,Beauty,Makeup,Orion,476,249.45,2024-03-28
+P0380,Beauty Makeup Product 380,Beauty,Makeup,Nova,3520,2676.87,2025-02-10
+P0381,Beauty Makeup Product 381,Beauty,Makeup,Pulse,4024,3126.22,2024-04-29
+P0382,Beauty Makeup Product 382,Beauty,Makeup,Pulse,2213,1524.32,2024-04-03
+P0383,Beauty Makeup Product 383,Beauty,Makeup,Nova,3006,1932.59,2024-10-23
+P0384,Beauty Makeup Product 384,Beauty,Makeup,Nova,4938,2859.16,2025-08-06
+P0385,Beauty Makeup Product 385,Beauty,Makeup,Pulse,4653,2865.9,2024-06-04
+P0386,Beauty Makeup Product 386,Beauty,Makeup,Orion,2086,1121.71,2025-08-30
+P0387,Beauty Makeup Product 387,Beauty,Makeup,Aster,341,252.59,2024-02-25
+P0388,Beauty Makeup Product 388,Beauty,Makeup,Orion,4316,2319.88,2024-05-06
+P0389,Beauty Makeup Product 389,Beauty,Makeup,Mira,1069,620.87,2025-02-21
+P0390,Beauty Makeup Product 390,Beauty,Makeup,Pulse,863,440.1,2024-06-15
+P0391,Beauty Makeup Product 391,Beauty,Makeup,Mira,1097,729.67,2024-06-19
+P0392,Beauty Makeup Product 392,Beauty,Makeup,Nova,2985,2183.35,2025-08-15
+P0393,Beauty Makeup Product 393,Beauty,Makeup,Orion,1480,1017.45,2024-03-24
+P0394,Beauty Makeup Product 394,Beauty,Makeup,Aster,780,511.83,2024-11-13
+P0395,Beauty Makeup Product 395,Beauty,Makeup,UrbanX,1772,974.05,2025-06-26
+P0396,Beauty Makeup Product 396,Beauty,Makeup,Mira,1621,906.9,2025-08-16
+P0397,Beauty Makeup Product 397,Beauty,Makeup,UrbanX,4773,3309.06,2024-02-29
+P0398,Beauty Makeup Product 398,Beauty,Makeup,UrbanX,1137,587.2,2025-07-15
+P0399,Beauty Makeup Product 399,Beauty,Makeup,Nova,4555,2420.89,2025-03-06
+P0400,Beauty Makeup Product 400,Beauty,Makeup,UrbanX,3765,2840.72,2025-02-13
+P0401,Sports Fitness Product 401,Sports,Fitness,UrbanX,3659,2484.35,2024-12-12
+P0402,Sports Fitness Product 402,Sports,Fitness,Pulse,1686,1058.07,2025-01-20
+P0403,Sports Fitness Product 403,Sports,Fitness,Mira,11547,7116.1,2024-08-17
+P0404,Sports Fitness Product 404,Sports,Fitness,Orion,7221,5439.37,2024-03-10
+P0405,Sports Fitness Product 405,Sports,Fitness,UrbanX,11206,6281.23,2025-08-21
+P0406,Sports Fitness Product 406,Sports,Fitness,Orion,11985,9224.72,2024-04-11
+P0407,Sports Fitness Product 407,Sports,Fitness,Aster,7304,4016.7,2024-05-13
+P0408,Sports Fitness Product 408,Sports,Fitness,Aster,10802,8388.48,2024-04-22
+P0409,Sports Fitness Product 409,Sports,Fitness,Zenith,10271,7672.26,2024-06-30
+P0410,Sports Fitness Product 410,Sports,Fitness,Aster,11525,7500.38,2025-05-25
+P0411,Sports Fitness Product 411,Sports,Fitness,UrbanX,8023,4129.55,2024-12-28
+P0412,Sports Fitness Product 412,Sports,Fitness,Nova,6787,4631.42,2024-10-20
+P0413,Sports Fitness Product 413,Sports,Fitness,Vertex,8226,4410.87,2024-12-29
+P0414,Sports Fitness Product 414,Sports,Fitness,Orion,4497,3202.42,2025-05-28
+P0415,Sports Fitness Product 415,Sports,Fitness,Mira,7624,5570.62,2025-06-28
+P0416,Sports Fitness Product 416,Sports,Fitness,Zenith,11364,8638.68,2024-09-16
+P0417,Sports Fitness Product 417,Sports,Fitness,Pulse,7726,5899.72,2025-03-14
+P0418,Sports Fitness Product 418,Sports,Fitness,UrbanX,8774,6711.38,2025-07-19
+P0419,Sports Fitness Product 419,Sports,Fitness,Vertex,9582,7417.15,2024-10-30
+P0420,Sports Fitness Product 420,Sports,Fitness,Orion,1568,906.0,2024-05-29
+P0421,Sports Fitness Product 421,Sports,Fitness,Vertex,1555,1208.27,2025-06-12
+P0422,Sports Fitness Product 422,Sports,Fitness,Mira,8501,4967.4,2024-10-23
+P0423,Sports Fitness Product 423,Sports,Fitness,Aster,2128,1534.7,2024-09-19
+P0424,Sports Fitness Product 424,Sports,Fitness,Orion,2577,1777.07,2025-09-20
+P0425,Sports Fitness Product 425,Sports,Fitness,Vertex,8842,6706.89,2024-02-15
+P0426,Sports Running Product 426,Sports,Running,UrbanX,829,555.52,2025-02-12
+P0427,Sports Running Product 427,Sports,Running,Nova,9808,4992.31,2025-02-13
+P0428,Sports Running Product 428,Sports,Running,Zenith,3545,2680.26,2025-07-28
+P0429,Sports Running Product 429,Sports,Running,Zenith,2815,1825.84,2025-08-13
+P0430,Sports Running Product 430,Sports,Running,Vertex,6440,4204.56,2025-03-23
+P0431,Sports Running Product 431,Sports,Running,Vertex,8242,6118.34,2024-06-02
+P0432,Sports Running Product 432,Sports,Running,UrbanX,4826,2802.62,2025-08-03
+P0433,Sports Running Product 433,Sports,Running,UrbanX,1166,870.21,2024-11-02
+P0434,Sports Running Product 434,Sports,Running,Nova,1822,1408.69,2024-12-31
+P0435,Sports Running Product 435,Sports,Running,Pulse,4935,3056.78,2025-05-31
+P0436,Sports Running Product 436,Sports,Running,Orion,6616,4796.44,2024-08-10
+P0437,Sports Running Product 437,Sports,Running,Zenith,8649,5966.61,2025-05-12
+P0438,Sports Running Product 438,Sports,Running,Vertex,8270,5955.8,2025-06-25
+P0439,Sports Running Product 439,Sports,Running,Orion,11434,8780.58,2025-02-18
+P0440,Sports Running Product 440,Sports,Running,Zenith,4146,2370.54,2024-06-29
+P0441,Sports Running Product 441,Sports,Running,Orion,8858,5141.09,2025-02-21
+P0442,Sports Running Product 442,Sports,Running,Pulse,9355,5850.0,2025-05-13
+P0443,Sports Running Product 443,Sports,Running,Pulse,8611,6256.54,2025-05-26
+P0444,Sports Running Product 444,Sports,Running,UrbanX,1861,1217.43,2024-10-19
+P0445,Sports Running Product 445,Sports,Running,Pulse,11148,8442.7,2024-01-18
+P0446,Sports Running Product 446,Sports,Running,Zenith,4150,2210.86,2024-12-30
+P0447,Sports Running Product 447,Sports,Running,Nova,2225,1128.11,2024-08-23
+P0448,Sports Running Product 448,Sports,Running,Nova,2865,2162.6,2024-05-16
+P0449,Sports Running Product 449,Sports,Running,Vertex,11860,9247.78,2025-06-20
+P0450,Sports Running Product 450,Sports,Running,Mira,11688,7921.36,2025-05-15
+P0451,Sports Outdoor Product 451,Sports,Outdoor,UrbanX,902,556.25,2024-06-25
+P0452,Sports Outdoor Product 452,Sports,Outdoor,Nova,1967,1325.62,2024-12-31
+P0453,Sports Outdoor Product 453,Sports,Outdoor,Aster,3889,2039.38,2025-02-08
+P0454,Sports Outdoor Product 454,Sports,Outdoor,UrbanX,10808,6903.81,2025-08-10
+P0455,Sports Outdoor Product 455,Sports,Outdoor,Orion,6531,3455.55,2025-06-27
+P0456,Sports Outdoor Product 456,Sports,Outdoor,Zenith,989,691.51,2024-05-29
+P0457,Sports Outdoor Product 457,Sports,Outdoor,Mira,5252,3671.03,2025-03-23
+P0458,Sports Outdoor Product 458,Sports,Outdoor,Vertex,10046,5502.13,2025-09-04
+P0459,Sports Outdoor Product 459,Sports,Outdoor,Orion,10167,7510.6,2025-09-20
+P0460,Sports Outdoor Product 460,Sports,Outdoor,Orion,5151,2646.92,2025-02-24
+P0461,Sports Outdoor Product 461,Sports,Outdoor,Nova,2783,1832.44,2025-09-17
+P0462,Sports Outdoor Product 462,Sports,Outdoor,Orion,9661,5444.62,2025-08-20
+P0463,Sports Outdoor Product 463,Sports,Outdoor,Vertex,3696,1925.24,2024-10-13
+P0464,Sports Outdoor Product 464,Sports,Outdoor,Pulse,7665,5445.27,2024-06-14
+P0465,Sports Outdoor Product 465,Sports,Outdoor,Orion,4797,3735.5,2025-05-10
+P0466,Sports Outdoor Product 466,Sports,Outdoor,Aster,8262,5484.24,2025-08-27
+P0467,Sports Outdoor Product 467,Sports,Outdoor,UrbanX,2786,2058.89,2024-01-14
+P0468,Sports Outdoor Product 468,Sports,Outdoor,UrbanX,11228,7747.85,2024-04-10
+P0469,Sports Outdoor Product 469,Sports,Outdoor,Zenith,11372,7457.15,2024-08-14
+P0470,Sports Outdoor Product 470,Sports,Outdoor,UrbanX,5623,3099.44,2024-01-15
+P0471,Sports Outdoor Product 471,Sports,Outdoor,Mira,2151,1429.83,2025-09-21
+P0472,Sports Outdoor Product 472,Sports,Outdoor,Vertex,7413,5011.64,2024-01-28
+P0473,Sports Outdoor Product 473,Sports,Outdoor,Orion,11643,6635.87,2024-03-28
+P0474,Sports Outdoor Product 474,Sports,Outdoor,Zenith,3946,2401.41,2025-03-10
+P0475,Sports Outdoor Product 475,Sports,Outdoor,Nova,3687,2117.8,2024-12-08
+P0476,Sports Sportswear Product 476,Sports,Sportswear,Mira,2475,1484.81,2024-01-07
+P0477,Sports Sportswear Product 477,Sports,Sportswear,Aster,6112,4477.87,2025-01-12
+P0478,Sports Sportswear Product 478,Sports,Sportswear,UrbanX,3683,2623.73,2025-03-29
+P0479,Sports Sportswear Product 479,Sports,Sportswear,UrbanX,4661,3551.9,2024-03-07
+P0480,Sports Sportswear Product 480,Sports,Sportswear,Vertex,1662,955.28,2024-08-29
+P0481,Sports Sportswear Product 481,Sports,Sportswear,Vertex,10247,6109.76,2024-10-25
+P0482,Sports Sportswear Product 482,Sports,Sportswear,Aster,11881,6951.35,2024-02-03
+P0483,Sports Sportswear Product 483,Sports,Sportswear,UrbanX,2144,1282.83,2024-11-19
+P0484,Sports Sportswear Product 484,Sports,Sportswear,Pulse,7501,5703.38,2025-08-20
+P0485,Sports Sportswear Product 485,Sports,Sportswear,Mira,8361,5725.05,2024-05-24
+P0486,Sports Sportswear Product 486,Sports,Sportswear,Zenith,9160,6625.06,2024-12-29
+P0487,Sports Sportswear Product 487,Sports,Sportswear,Zenith,5285,2972.49,2025-08-17
+P0488,Sports Sportswear Product 488,Sports,Sportswear,UrbanX,9740,5911.02,2024-10-16
+P0489,Sports Sportswear Product 489,Sports,Sportswear,UrbanX,5141,2995.77,2024-10-25
+P0490,Sports Sportswear Product 490,Sports,Sportswear,Pulse,5990,3820.79,2025-03-15
+P0491,Sports Sportswear Product 491,Sports,Sportswear,Pulse,11317,7678.58,2024-07-30
+P0492,Sports Sportswear Product 492,Sports,Sportswear,Mira,11774,7784.07,2025-06-02
+P0493,Sports Sportswear Product 493,Sports,Sportswear,Zenith,3209,2123.17,2025-03-09
+P0494,Sports Sportswear Product 494,Sports,Sportswear,Zenith,5361,3672.07,2024-07-06
+P0495,Sports Sportswear Product 495,Sports,Sportswear,UrbanX,9658,6656.91,2024-04-18
+P0496,Sports Sportswear Product 496,Sports,Sportswear,Orion,4573,2636.23,2024-04-23
+P0497,Sports Sportswear Product 497,Sports,Sportswear,Pulse,9553,5983.56,2024-03-22
+P0498,Sports Sportswear Product 498,Sports,Sportswear,Orion,1669,879.29,2024-08-21
+P0499,Sports Sportswear Product 499,Sports,Sportswear,Zenith,11390,6103.64,2025-08-24
+P0500,Sports Sportswear Product 500,Sports,Sportswear,UrbanX,2596,1555.02,2025-09-22
