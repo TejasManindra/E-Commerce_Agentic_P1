@@ -182,22 +182,552 @@ def generate_recommendations(
 # GENERAL QUERY RECOMMENDATIONS
 # ============================================================
 
+# ============================================================
+# GENERAL QUERY RECOMMENDATIONS
+# ============================================================
+
+
 def generate_query_recommendations(
     intent,
     analysis
 ):
+    """
+    Generate recommendations for general business
+    and marketing questions.
+
+    Supports:
+
+    - KPI analysis
+    - Decline analysis
+    - Dimension analysis
+    - ROAS
+    - CAC
+    - Conversion rate
+    - Marketing channel analysis
+    """
 
     recommendations = []
 
-    # --------------------------------------------------------
+    analysis = analysis or {}
+
+    metric = getattr(
+        intent,
+        "metric",
+        None
+    )
+
+    intent_name = getattr(
+        intent,
+        "intent",
+        ""
+    )
+
+    dimension = getattr(
+        intent,
+        "dimension",
+        None
+    )
+
+    # ========================================================
+    # MARKETING ANALYSIS
+    # ========================================================
+
+    marketing_metrics = {
+        "roas",
+        "cac",
+        "conversion_rate",
+    }
+
+    marketing_intents = {
+        "marketing_analysis",
+        "marketing_channel_analysis",
+        "marketing_channel_comparison",
+    }
+
+    if (
+        metric in marketing_metrics
+        or intent_name in marketing_intents
+    ):
+
+        # ----------------------------------------------------
+        # Extract marketing analysis
+        # ----------------------------------------------------
+
+        channels = (
+            analysis.get(
+                "channels",
+                []
+            )
+            or []
+        )
+
+        # Some callers may wrap the analysis
+        # inside another result object.
+
+        if not channels:
+
+            nested_analysis = (
+                analysis.get(
+                    "analysis",
+                    {}
+                )
+                or {}
+            )
+
+            if isinstance(
+                nested_analysis,
+                dict
+            ):
+
+                channels = (
+                    nested_analysis.get(
+                        "channels",
+                        []
+                    )
+                    or []
+                )
+
+        # ----------------------------------------------------
+        # ROAS ANALYSIS
+        # ----------------------------------------------------
+
+        if metric == "roas":
+
+            # Find the lowest ROAS channel.
+
+            valid_channels = [
+                channel
+                for channel in channels
+                if isinstance(
+                    channel,
+                    dict
+                )
+            ]
+
+            if valid_channels:
+
+                lowest_roas_channel = min(
+                    valid_channels,
+                    key=lambda x: float(
+                        x.get(
+                            "roas",
+                            0
+                        ) or 0
+                    )
+                )
+
+                highest_roas_channel = max(
+                    valid_channels,
+                    key=lambda x: float(
+                        x.get(
+                            "roas",
+                            0
+                        ) or 0
+                    )
+                )
+
+                lowest_roas = float(
+                    lowest_roas_channel.get(
+                        "roas",
+                        0
+                    ) or 0
+                )
+
+                highest_roas = float(
+                    highest_roas_channel.get(
+                        "roas",
+                        0
+                    ) or 0
+                )
+
+                lowest_channel_name = (
+                    lowest_roas_channel.get(
+                        "channel",
+                        "Unknown"
+                    )
+                )
+
+                highest_channel_name = (
+                    highest_roas_channel.get(
+                        "channel",
+                        "Unknown"
+                    )
+                )
+
+                # ------------------------------------------------
+                # LOW ROAS CHANNEL
+                # ------------------------------------------------
+
+                if lowest_roas < 3:
+
+                    recommendations.append({
+
+                        "action":
+                            (
+                                f"Review and optimize "
+                                f"{lowest_channel_name} "
+                                f"budget allocation"
+                            ),
+
+                        "priority":
+                            "High",
+
+                        "reason":
+                            (
+                                f"{lowest_channel_name} "
+                                f"generated only "
+                                f"{lowest_roas:.2f}x ROAS."
+                            ),
+
+                        "expected_impact":
+                            (
+                                "Improve marketing efficiency "
+                                "by reducing spend leakage "
+                                "from underperforming channels."
+                            ),
+
+                        "time_horizon":
+                            "1-2 weeks",
+
+                        "owner":
+                            "Marketing Manager",
+                    })
+
+                # ------------------------------------------------
+                # HIGH ROAS CHANNEL
+                # ------------------------------------------------
+
+                if (
+                    highest_roas >= 4
+                    and highest_channel_name
+                    != lowest_channel_name
+                ):
+
+                    recommendations.append({
+
+                        "action":
+                            (
+                                f"Increase controlled investment "
+                                f"in {highest_channel_name}"
+                            ),
+
+                        "priority":
+                            "Medium",
+
+                        "reason":
+                            (
+                                f"{highest_channel_name} "
+                                f"generated the strongest ROAS "
+                                f"at {highest_roas:.2f}x."
+                            ),
+
+                        "expected_impact":
+                            (
+                                "Scale efficient customer "
+                                "acquisition while maintaining "
+                                "marketing efficiency."
+                            ),
+
+                        "time_horizon":
+                            "2-4 weeks",
+
+                        "owner":
+                            "Marketing Manager",
+                    })
+
+        # ----------------------------------------------------
+        # CAC ANALYSIS
+        # ----------------------------------------------------
+
+        elif metric == "cac":
+
+            valid_channels = [
+                channel
+                for channel in channels
+                if isinstance(
+                    channel,
+                    dict
+                )
+            ]
+
+            if valid_channels:
+
+                highest_cac_channel = max(
+                    valid_channels,
+                    key=lambda x: float(
+                        x.get(
+                            "cac",
+                            0
+                        ) or 0
+                    )
+                )
+
+                lowest_cac_channel = min(
+                    [
+                        channel
+                        for channel in valid_channels
+                        if float(
+                            channel.get(
+                                "cac",
+                                0
+                            ) or 0
+                        ) > 0
+                    ],
+                    key=lambda x: float(
+                        x.get(
+                            "cac",
+                            0
+                        ) or 0
+                    ),
+                    default=None
+                )
+
+                highest_cac = float(
+                    highest_cac_channel.get(
+                        "cac",
+                        0
+                    ) or 0
+                )
+
+                highest_cac_name = (
+                    highest_cac_channel.get(
+                        "channel",
+                        "Unknown"
+                    )
+                )
+
+                if highest_cac > 50:
+
+                    recommendations.append({
+
+                        "action":
+                            (
+                                f"Reduce acquisition cost "
+                                f"in {highest_cac_name}"
+                            ),
+
+                        "priority":
+                            "High",
+
+                        "reason":
+                            (
+                                f"{highest_cac_name} has CAC "
+                                f"of ₹{highest_cac:,.2f}."
+                            ),
+
+                        "expected_impact":
+                            (
+                                "Improve customer acquisition "
+                                "efficiency and reduce marketing "
+                                "cost per new customer."
+                            ),
+
+                        "time_horizon":
+                            "1-2 weeks",
+
+                        "owner":
+                            "Marketing Manager",
+                    })
+
+                if lowest_cac_channel:
+
+                    lowest_cac = float(
+                        lowest_cac_channel.get(
+                            "cac",
+                            0
+                        ) or 0
+                    )
+
+                    lowest_cac_name = (
+                        lowest_cac_channel.get(
+                            "channel",
+                            "Unknown"
+                        )
+                    )
+
+                    recommendations.append({
+
+                        "action":
+                            (
+                                f"Scale efficient acquisition "
+                                f"through {lowest_cac_name}"
+                            ),
+
+                        "priority":
+                            "Medium",
+
+                        "reason":
+                            (
+                                f"{lowest_cac_name} has the "
+                                f"lowest observed CAC at "
+                                f"₹{lowest_cac:,.2f}."
+                            ),
+
+                        "expected_impact":
+                            (
+                                "Acquire additional customers "
+                                "through a relatively efficient "
+                                "acquisition channel."
+                            ),
+
+                        "time_horizon":
+                            "2-4 weeks",
+
+                        "owner":
+                            "Marketing Manager",
+                    })
+
+        # ----------------------------------------------------
+        # CONVERSION RATE ANALYSIS
+        # ----------------------------------------------------
+
+        elif metric == "conversion_rate":
+
+            valid_channels = [
+                channel
+                for channel in channels
+                if isinstance(
+                    channel,
+                    dict
+                )
+            ]
+
+            if valid_channels:
+
+                lowest_conversion_channel = min(
+                    valid_channels,
+                    key=lambda x: float(
+                        x.get(
+                            "conversion_rate",
+                            0
+                        ) or 0
+                    )
+                )
+
+                highest_conversion_channel = max(
+                    valid_channels,
+                    key=lambda x: float(
+                        x.get(
+                            "conversion_rate",
+                            0
+                        ) or 0
+                    )
+                )
+
+                lowest_conversion = float(
+                    lowest_conversion_channel.get(
+                        "conversion_rate",
+                        0
+                    ) or 0
+                )
+
+                highest_conversion = float(
+                    highest_conversion_channel.get(
+                        "conversion_rate",
+                        0
+                    ) or 0
+                )
+
+                lowest_conversion_name = (
+                    lowest_conversion_channel.get(
+                        "channel",
+                        "Unknown"
+                    )
+                )
+
+                highest_conversion_name = (
+                    highest_conversion_channel.get(
+                        "channel",
+                        "Unknown"
+                    )
+                )
+
+                if lowest_conversion < 2:
+
+                    recommendations.append({
+
+                        "action":
+                            (
+                                f"Improve conversion "
+                                f"performance in "
+                                f"{lowest_conversion_name}"
+                            ),
+
+                        "priority":
+                            "High",
+
+                        "reason":
+                            (
+                                f"{lowest_conversion_name} "
+                                f"has conversion rate of "
+                                f"{lowest_conversion:.2f}%."
+                            ),
+
+                        "expected_impact":
+                            (
+                                "Increase customer conversion "
+                                "from existing traffic."
+                            ),
+
+                        "time_horizon":
+                            "2-4 weeks",
+
+                        "owner":
+                            "Marketing / CRO Manager",
+                    })
+
+                if (
+                    highest_conversion
+                    >= 3
+                    and highest_conversion_name
+                    != lowest_conversion_name
+                ):
+
+                    recommendations.append({
+
+                        "action":
+                            (
+                                f"Scale traffic to "
+                                f"{highest_conversion_name}"
+                            ),
+
+                        "priority":
+                            "Medium",
+
+                        "reason":
+                            (
+                                f"{highest_conversion_name} "
+                                f"has the strongest conversion "
+                                f"rate at "
+                                f"{highest_conversion:.2f}%."
+                            ),
+
+                        "expected_impact":
+                            (
+                                "Generate more customers from "
+                                "efficient converting traffic."
+                            ),
+
+                        "time_horizon":
+                            "2-4 weeks",
+
+                        "owner":
+                            "Marketing Manager",
+                    })
+
+    # ========================================================
     # DECLINE ANALYSIS
-    # --------------------------------------------------------
+    # ========================================================
 
-    if "decline" in intent.intent:
+    if not recommendations and (
+        "decline" in intent_name
+    ):
 
-        change = analysis.get(
-            "change_percent",
-            0
+        change = float(
+            analysis.get(
+                "change_percent",
+                0
+            ) or 0
         )
 
         if change < 0:
@@ -210,25 +740,26 @@ def generate_query_recommendations(
                 "priority":
                     "High",
 
-                "reason": (
-                    f"{intent.metric.title()} "
-                    f"decreased by "
-                    f"{abs(change):.2f}% "
-                    "compared with the previous period."
-                ),
+                "reason":
+                    (
+                        f"{str(metric).title()} "
+                        f"decreased by "
+                        f"{abs(change):.2f}% "
+                        "compared with the previous period."
+                    ),
 
                 "time_horizon":
                     "Immediate",
 
                 "owner":
-                    "Business / Strategy Manager"
+                    "Business / Strategy Manager",
             })
 
-    # --------------------------------------------------------
+    # ========================================================
     # DIMENSION ANALYSIS
-    # --------------------------------------------------------
+    # ========================================================
 
-    elif intent.dimension:
+    if not recommendations and dimension:
 
         top = analysis.get(
             "top_dimension"
@@ -238,30 +769,33 @@ def generate_query_recommendations(
 
             recommendations.append({
 
-                "action": (
-                    f"Review {intent.dimension} "
-                    "performance and identify "
-                    "growth opportunities"
-                ),
+                "action":
+                    (
+                        f"Review {dimension} "
+                        "performance and identify "
+                        "growth opportunities"
+                    ),
 
                 "priority":
                     "Medium",
 
-                "reason": (
-                    f"{top['dimension']} is the leading "
-                    f"{intent.dimension} for the selected metric."
-                ),
+                "reason":
+                    (
+                        f"{top.get('dimension', 'Unknown')} "
+                        f"is the leading {dimension} "
+                        "for the selected metric."
+                    ),
 
                 "time_horizon":
                     "1-2 weeks",
 
                 "owner":
-                    "Business Analyst"
+                    "Business Analyst",
             })
 
-    # --------------------------------------------------------
+    # ========================================================
     # DEFAULT
-    # --------------------------------------------------------
+    # ========================================================
 
     if not recommendations:
 
@@ -280,12 +814,14 @@ def generate_query_recommendations(
                 "Monthly",
 
             "owner":
-                "Business Manager"
+                "Business Manager",
         })
 
-    return recommendations
+    # ========================================================
+    # TOP 3
+    # ========================================================
 
-
+    return recommendations[:3]
 # ============================================================
 # ROOT CAUSE RECOMMENDATIONS
 # ============================================================
